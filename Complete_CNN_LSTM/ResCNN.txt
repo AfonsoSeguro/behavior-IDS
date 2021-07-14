@@ -1,0 +1,53 @@
+WARNING:tensorflow:From /home/tito/.local/lib/python3.6/site-packages/tensorflow/python/keras/_impl/keras/backend.py:1557: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2021-06-18 09:22:05.672377: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2
+Train on 3755271 samples, validate on 417253 samples
+Epoch 1/10
+ - 329s - loss: 0.0395 - acc: 0.1935 - val_loss: 0.0340 - val_acc: 0.0879
+Epoch 2/10
+ - 330s - loss: 0.0309 - acc: 0.2651 - val_loss: 0.0264 - val_acc: 0.7962
+Epoch 3/10
+ - 329s - loss: 0.0164 - acc: 0.3348 - val_loss: 0.0136 - val_acc: 0.2218
+Epoch 4/10
+ - 330s - loss: 0.0136 - acc: 0.3727 - val_loss: 0.0136 - val_acc: 0.6443
+Epoch 5/10
+ - 331s - loss: 0.0136 - acc: 0.3927 - val_loss: 0.0136 - val_acc: 0.7661
+Epoch 6/10
+ - 330s - loss: 0.0136 - acc: 0.4053 - val_loss: 0.0136 - val_acc: 0.6782
+Epoch 7/10
+ - 331s - loss: 0.0136 - acc: 0.4146 - val_loss: 0.0136 - val_acc: 0.5977
+Epoch 8/10
+ - 329s - loss: 0.0136 - acc: 0.4148 - val_loss: 0.0136 - val_acc: 0.1833
+Epoch 9/10
+ - 331s - loss: 0.0136 - acc: 0.4143 - val_loss: 0.0136 - val_acc: 0.2281
+Epoch 10/10
+ - 332s - loss: 0.0136 - acc: 0.4166 - val_loss: 0.0136 - val_acc: 0.5501
+WARNING:tensorflow:From /home/tito/.local/lib/python3.6/site-packages/tensorflow/python/keras/_impl/keras/backend.py:1422: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+Train on 3755271 samples, validate on 417253 samples
+Epoch 1/10
+ - 368s - loss: 0.0261 - acc: 0.9922 - val_loss: 0.0071 - val_acc: 0.9984
+Epoch 2/10
+ - 367s - loss: 0.0064 - acc: 0.9985 - val_loss: 0.0062 - val_acc: 0.9985
+Epoch 3/10
+ - 367s - loss: 0.0055 - acc: 0.9988 - val_loss: 0.0055 - val_acc: 0.9989
+Epoch 4/10
+ - 367s - loss: 0.0049 - acc: 0.9990 - val_loss: 0.0048 - val_acc: 0.9990
+Epoch 5/10
+ - 368s - loss: 0.0045 - acc: 0.9991 - val_loss: 0.0046 - val_acc: 0.9990
+Epoch 6/10
+ - 367s - loss: 0.0042 - acc: 0.9991 - val_loss: 0.0041 - val_acc: 0.9992
+Epoch 7/10
+ - 367s - loss: 0.0040 - acc: 0.9992 - val_loss: 0.0059 - val_acc: 0.9996
+Epoch 8/10
+ - 367s - loss: 0.0039 - acc: 0.9992 - val_loss: 0.0043 - val_acc: 0.9988
+Epoch 9/10
+ - 366s - loss: 0.0037 - acc: 0.9992 - val_loss: 0.0036 - val_acc: 0.9992
+Epoch 10/10
+ - 366s - loss: 0.0036 - acc: 0.9993 - val_loss: 0.0035 - val_acc: 0.9993
+[[898778    489]
+ [   257 143608]]
+[0.00000000e+00 5.43776209e-04 1.00000000e+00] | [0.        0.9982136 1.       ]
+0.9988349134108867

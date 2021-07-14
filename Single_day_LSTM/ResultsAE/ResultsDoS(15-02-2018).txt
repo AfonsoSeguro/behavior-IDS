@@ -1,0 +1,341 @@
+WARNING:tensorflow:From /home/tito/.local/lib/python3.6/site-packages/tensorflow/python/keras/_impl/keras/backend.py:1557: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2021-06-01 22:47:50.897408: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2
+Train on 749194 samples, validate on 83244 samples
+Epoch 1/10
+ - 64s - loss: 0.0033 - acc: 0.8944 - val_loss: 0.0031 - val_acc: 0.8658
+Epoch 2/10
+ - 63s - loss: 0.0027 - acc: 0.8999 - val_loss: 0.0021 - val_acc: 0.9210
+Epoch 3/10
+ - 63s - loss: 0.0021 - acc: 0.9005 - val_loss: 0.0021 - val_acc: 0.8851
+Epoch 4/10
+ - 63s - loss: 0.0021 - acc: 0.9030 - val_loss: 0.0021 - val_acc: 0.9000
+Epoch 5/10
+ - 63s - loss: 0.0021 - acc: 0.9030 - val_loss: 0.0021 - val_acc: 0.8934
+Epoch 6/10
+ - 64s - loss: 0.0021 - acc: 0.9030 - val_loss: 0.0021 - val_acc: 0.8832
+Epoch 7/10
+ - 63s - loss: 0.0021 - acc: 0.9040 - val_loss: 0.0021 - val_acc: 0.9307
+Epoch 8/10
+ - 63s - loss: 0.0021 - acc: 0.9043 - val_loss: 0.0021 - val_acc: 0.8990
+Epoch 9/10
+ - 63s - loss: 0.0021 - acc: 0.9048 - val_loss: 0.0021 - val_acc: 0.9046
+Epoch 10/10
+ - 63s - loss: 0.0021 - acc: 0.9050 - val_loss: 0.0021 - val_acc: 0.8860
+WARNING:tensorflow:From /home/tito/.local/lib/python3.6/site-packages/tensorflow/python/keras/_impl/keras/backend.py:1456: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /home/tito/.local/lib/python3.6/site-packages/tensorflow/python/keras/_impl/keras/backend.py:1422: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+Modelo 0
+Train on 842828 samples, validate on 93648 samples
+Epoch 1/10
+ - 1080s - loss: 0.0437 - acc: 0.9869 - val_loss: 0.0093 - val_acc: 0.9976
+Epoch 2/10
+ - 1085s - loss: 0.0080 - acc: 0.9978 - val_loss: 0.0043 - val_acc: 0.9983
+Epoch 3/10
+ - 1097s - loss: 0.0053 - acc: 0.9986 - val_loss: 0.0037 - val_acc: 0.9984
+Epoch 4/10
+ - 1076s - loss: 0.0040 - acc: 0.9988 - val_loss: 0.0048 - val_acc: 0.9983
+Epoch 5/10
+ - 1106s - loss: 0.0032 - acc: 0.9990 - val_loss: 0.0036 - val_acc: 0.9984
+Epoch 6/10
+ - 1104s - loss: 0.0028 - acc: 0.9991 - val_loss: 0.0038 - val_acc: 0.9983
+Epoch 7/10
+ - 1092s - loss: 0.0025 - acc: 0.9991 - val_loss: 8.5806e-04 - val_acc: 0.9997
+Epoch 8/10
+ - 1102s - loss: 0.0023 - acc: 0.9992 - val_loss: 0.0017 - val_acc: 0.9989
+Epoch 9/10
+ - 1106s - loss: 0.0021 - acc: 0.9992 - val_loss: 0.0021 - val_acc: 0.9987
+Epoch 10/10
+ - 1113s - loss: 0.0020 - acc: 0.9993 - val_loss: 0.0019 - val_acc: 0.9988
+
+
+
+Modelo 1
+Train on 842828 samples, validate on 93648 samples
+Epoch 1/10
+ - 1099s - loss: 0.0386 - acc: 0.9879 - val_loss: 0.0035 - val_acc: 0.9985
+Epoch 2/10
+ - 1112s - loss: 0.0069 - acc: 0.9983 - val_loss: 0.0021 - val_acc: 0.9985
+Epoch 3/10
+ - 1122s - loss: 0.0052 - acc: 0.9987 - val_loss: 0.0016 - val_acc: 0.9990
+Epoch 4/10
+ - 1073s - loss: 0.0043 - acc: 0.9988 - val_loss: 0.0026 - val_acc: 0.9984
+Epoch 5/10
+ - 1099s - loss: 0.0037 - acc: 0.9989 - val_loss: 0.0043 - val_acc: 0.9983
+Epoch 6/10
+ - 1076s - loss: 0.0034 - acc: 0.9989 - val_loss: 0.0037 - val_acc: 0.9984
+Epoch 7/10
+ - 1106s - loss: 0.0031 - acc: 0.9990 - val_loss: 0.0034 - val_acc: 0.9984
+Epoch 8/10
+ - 1118s - loss: 0.0028 - acc: 0.9990 - val_loss: 0.0033 - val_acc: 0.9985
+Epoch 9/10
+ - 1080s - loss: 0.0026 - acc: 0.9991 - val_loss: 0.0027 - val_acc: 0.9986
+Epoch 10/10
+ - 1084s - loss: 0.0025 - acc: 0.9991 - val_loss: 0.0019 - val_acc: 0.9988
+
+
+
+Modelo 2
+Train on 842828 samples, validate on 93648 samples
+Epoch 1/10
+ - 1106s - loss: 0.0530 - acc: 0.9831 - val_loss: 0.0056 - val_acc: 0.9994
+Epoch 2/10
+ - 1114s - loss: 0.0096 - acc: 0.9972 - val_loss: 0.0013 - val_acc: 0.9996
+Epoch 3/10
+ - 1129s - loss: 0.0051 - acc: 0.9986 - val_loss: 0.0019 - val_acc: 0.9989
+Epoch 4/10
+ - 1085s - loss: 0.0039 - acc: 0.9989 - val_loss: 0.0048 - val_acc: 0.9983
+Epoch 5/10
+ - 1084s - loss: 0.0033 - acc: 0.9990 - val_loss: 0.0023 - val_acc: 0.9986
+Epoch 6/10
+ - 1070s - loss: 0.0029 - acc: 0.9991 - val_loss: 0.0034 - val_acc: 0.9983
+Epoch 7/10
+ - 1076s - loss: 0.0026 - acc: 0.9991 - val_loss: 9.7259e-04 - val_acc: 0.9996
+Epoch 8/10
+ - 1085s - loss: 0.0024 - acc: 0.9992 - val_loss: 0.0049 - val_acc: 0.9983
+Epoch 9/10
+ - 1085s - loss: 0.0022 - acc: 0.9992 - val_loss: 0.0013 - val_acc: 0.9993
+Epoch 10/10
+ - 1083s - loss: 0.0021 - acc: 0.9992 - val_loss: 0.0013 - val_acc: 0.9993
+
+
+
+Modelo 3
+Train on 842828 samples, validate on 93648 samples
+Epoch 1/10
+ - 1120s - loss: 0.0485 - acc: 0.9856 - val_loss: 0.0033 - val_acc: 0.9991
+Epoch 2/10
+ - 1083s - loss: 0.0069 - acc: 0.9982 - val_loss: 0.0028 - val_acc: 0.9984
+Epoch 3/10
+ - 1083s - loss: 0.0046 - acc: 0.9989 - val_loss: 0.0044 - val_acc: 0.9983
+Epoch 4/10
+ - 1099s - loss: 0.0038 - acc: 0.9989 - val_loss: 0.0034 - val_acc: 0.9983
+Epoch 5/10
+ - 1096s - loss: 0.0033 - acc: 0.9990 - val_loss: 0.0037 - val_acc: 0.9983
+Epoch 6/10
+ - 1100s - loss: 0.0030 - acc: 0.9991 - val_loss: 0.0032 - val_acc: 0.9984
+Epoch 7/10
+ - 1100s - loss: 0.0027 - acc: 0.9991 - val_loss: 0.0020 - val_acc: 0.9988
+Epoch 8/10
+ - 1077s - loss: 0.0025 - acc: 0.9992 - val_loss: 0.0049 - val_acc: 0.9982
+Epoch 9/10
+ - 1099s - loss: 0.0023 - acc: 0.9992 - val_loss: 0.0013 - val_acc: 0.9993
+Epoch 10/10
+ - 1093s - loss: 0.0021 - acc: 0.9992 - val_loss: 0.0019 - val_acc: 0.9989
+
+
+
+Modelo 4
+Train on 842828 samples, validate on 93648 samples
+Epoch 1/10
+ - 1091s - loss: 0.0511 - acc: 0.9849 - val_loss: 0.0044 - val_acc: 0.9988
+Epoch 2/10
+ - 1062s - loss: 0.0084 - acc: 0.9977 - val_loss: 0.0036 - val_acc: 0.9983
+Epoch 3/10
+ - 1093s - loss: 0.0054 - acc: 0.9986 - val_loss: 0.0014 - val_acc: 0.9993
+Epoch 4/10
+ - 1072s - loss: 0.0043 - acc: 0.9989 - val_loss: 0.0036 - val_acc: 0.9983
+Epoch 5/10
+ - 1077s - loss: 0.0036 - acc: 0.9990 - val_loss: 0.0036 - val_acc: 0.9983
+Epoch 6/10
+ - 1085s - loss: 0.0032 - acc: 0.9990 - val_loss: 0.0036 - val_acc: 0.9984
+Epoch 7/10
+ - 1095s - loss: 0.0026 - acc: 0.9991 - val_loss: 0.0037 - val_acc: 0.9983
+Epoch 8/10
+ - 1071s - loss: 0.0023 - acc: 0.9992 - val_loss: 0.0023 - val_acc: 0.9986
+Epoch 9/10
+ - 1080s - loss: 0.0021 - acc: 0.9992 - val_loss: 0.0013 - val_acc: 0.9991
+Epoch 10/10
+ - 1071s - loss: 0.0020 - acc: 0.9993 - val_loss: 0.0031 - val_acc: 0.9985
+
+
+
+Modelo 5
+Train on 842828 samples, validate on 93648 samples
+Epoch 1/10
+ - 1097s - loss: 0.0529 - acc: 0.9839 - val_loss: 0.0091 - val_acc: 0.9976
+Epoch 2/10
+ - 1080s - loss: 0.0100 - acc: 0.9971 - val_loss: 0.0038 - val_acc: 0.9983
+Epoch 3/10
+ - 1080s - loss: 0.0056 - acc: 0.9985 - val_loss: 0.0032 - val_acc: 0.9983
+Epoch 4/10
+ - 1079s - loss: 0.0044 - acc: 0.9988 - val_loss: 0.0028 - val_acc: 0.9984
+Epoch 5/10
+ - 1079s - loss: 0.0037 - acc: 0.9989 - val_loss: 0.0023 - val_acc: 0.9985
+Epoch 6/10
+ - 1076s - loss: 0.0032 - acc: 0.9990 - val_loss: 0.0024 - val_acc: 0.9988
+Epoch 7/10
+ - 1085s - loss: 0.0029 - acc: 0.9991 - val_loss: 0.0023 - val_acc: 0.9985
+Epoch 8/10
+ - 1088s - loss: 0.0026 - acc: 0.9991 - val_loss: 0.0032 - val_acc: 0.9984
+Epoch 9/10
+ - 1079s - loss: 0.0023 - acc: 0.9992 - val_loss: 0.0017 - val_acc: 0.9988
+Epoch 10/10
+ - 1088s - loss: 0.0021 - acc: 0.9993 - val_loss: 0.0030 - val_acc: 0.9984
+
+
+
+Modelo 6
+Train on 842828 samples, validate on 93648 samples
+Epoch 1/10
+ - 1105s - loss: 0.0414 - acc: 0.9873 - val_loss: 0.0041 - val_acc: 0.9985
+Epoch 2/10
+ - 1077s - loss: 0.0078 - acc: 0.9980 - val_loss: 0.0026 - val_acc: 0.9984
+Epoch 3/10
+ - 1102s - loss: 0.0050 - acc: 0.9987 - val_loss: 0.0051 - val_acc: 0.9983
+Epoch 4/10
+ - 1085s - loss: 0.0038 - acc: 0.9988 - val_loss: 0.0056 - val_acc: 0.9983
+Epoch 5/10
+ - 1096s - loss: 0.0033 - acc: 0.9989 - val_loss: 0.0047 - val_acc: 0.9983
+Epoch 6/10
+ - 1098s - loss: 0.0030 - acc: 0.9990 - val_loss: 0.0024 - val_acc: 0.9985
+Epoch 7/10
+ - 1097s - loss: 0.0027 - acc: 0.9991 - val_loss: 0.0040 - val_acc: 0.9983
+Epoch 8/10
+ - 1108s - loss: 0.0025 - acc: 0.9991 - val_loss: 0.0021 - val_acc: 0.9987
+Epoch 9/10
+ - 1091s - loss: 0.0024 - acc: 0.9991 - val_loss: 0.0018 - val_acc: 0.9986
+Epoch 10/10
+ - 1085s - loss: 0.0023 - acc: 0.9992 - val_loss: 0.0024 - val_acc: 0.9985
+
+
+
+Modelo 7
+Train on 842828 samples, validate on 93648 samples
+Epoch 1/10
+ - 1091s - loss: 0.0401 - acc: 0.9873 - val_loss: 0.0023 - val_acc: 0.9997
+Epoch 2/10
+ - 1104s - loss: 0.0088 - acc: 0.9977 - val_loss: 0.0051 - val_acc: 0.9983
+Epoch 3/10
+ - 1097s - loss: 0.0059 - acc: 0.9986 - val_loss: 0.0036 - val_acc: 0.9983
+Epoch 4/10
+ - 1103s - loss: 0.0049 - acc: 0.9988 - val_loss: 0.0033 - val_acc: 0.9984
+Epoch 5/10
+ - 1131s - loss: 0.0043 - acc: 0.9989 - val_loss: 0.0024 - val_acc: 0.9985
+Epoch 6/10
+ - 1100s - loss: 0.0039 - acc: 0.9989 - val_loss: 0.0034 - val_acc: 0.9984
+Epoch 7/10
+ - 1127s - loss: 0.0036 - acc: 0.9990 - val_loss: 0.0021 - val_acc: 0.9985
+Epoch 8/10
+ - 1118s - loss: 0.0033 - acc: 0.9990 - val_loss: 0.0023 - val_acc: 0.9986
+Epoch 9/10
+ - 1138s - loss: 0.0030 - acc: 0.9991 - val_loss: 0.0023 - val_acc: 0.9987
+Epoch 10/10
+ - 1121s - loss: 0.0027 - acc: 0.9991 - val_loss: 0.0028 - val_acc: 0.9984
+
+
+
+Modelo 8
+Train on 842828 samples, validate on 93648 samples
+Epoch 1/10
+ - 1121s - loss: 0.0464 - acc: 0.9855 - val_loss: 0.0083 - val_acc: 0.9976
+Epoch 2/10
+ - 1129s - loss: 0.0076 - acc: 0.9979 - val_loss: 0.0020 - val_acc: 0.9988
+Epoch 3/10
+ - 1139s - loss: 0.0049 - acc: 0.9986 - val_loss: 0.0031 - val_acc: 0.9984
+Epoch 4/10
+ - 1124s - loss: 0.0040 - acc: 0.9988 - val_loss: 0.0015 - val_acc: 0.9992
+Epoch 5/10
+ - 1114s - loss: 0.0033 - acc: 0.9990 - val_loss: 0.0023 - val_acc: 0.9986
+Epoch 6/10
+ - 1101s - loss: 0.0029 - acc: 0.9990 - val_loss: 0.0019 - val_acc: 0.9988
+Epoch 7/10
+ - 1126s - loss: 0.0027 - acc: 0.9991 - val_loss: 0.0022 - val_acc: 0.9985
+Epoch 8/10
+ - 1134s - loss: 0.0026 - acc: 0.9991 - val_loss: 0.0020 - val_acc: 0.9990
+Epoch 9/10
+ - 1128s - loss: 0.0024 - acc: 0.9991 - val_loss: 0.0026 - val_acc: 0.9985
+Epoch 10/10
+ - 1117s - loss: 0.0023 - acc: 0.9991 - val_loss: 0.0020 - val_acc: 0.9988
+
+
+
+Modelo 9
+Train on 842829 samples, validate on 93648 samples
+Epoch 1/10
+ - 1147s - loss: 0.0485 - acc: 0.9849 - val_loss: 0.0041 - val_acc: 0.9993
+Epoch 2/10
+ - 1112s - loss: 0.0087 - acc: 0.9976 - val_loss: 0.0047 - val_acc: 0.9983
+Epoch 3/10
+ - 1117s - loss: 0.0055 - acc: 0.9986 - val_loss: 0.0029 - val_acc: 0.9985
+Epoch 4/10
+ - 1246s - loss: 0.0045 - acc: 0.9988 - val_loss: 0.0039 - val_acc: 0.9984
+Epoch 5/10
+ - 812s - loss: 0.0038 - acc: 0.9989 - val_loss: 0.0032 - val_acc: 0.9985
+Epoch 6/10
+ - 537s - loss: 0.0030 - acc: 0.9990 - val_loss: 0.0033 - val_acc: 0.9984
+Epoch 7/10
+ - 537s - loss: 0.0026 - acc: 0.9991 - val_loss: 0.0031 - val_acc: 0.9985
+Epoch 8/10
+ - 541s - loss: 0.0024 - acc: 0.9992 - val_loss: 0.0013 - val_acc: 0.9993
+Epoch 9/10
+ - 545s - loss: 0.0022 - acc: 0.9992 - val_loss: 0.0011 - val_acc: 0.9994
+Epoch 10/10
+ - 536s - loss: 0.0020 - acc: 0.9993 - val_loss: 7.3889e-04 - val_acc: 0.9997
+
+
+
+------------------------------------
+Modelo 0
+[array([0.00000000e+00, 4.75689243e-04, 1.00000000e+00]), array([0.        , 0.99123643, 1.        ]), 0.9953803683712757]
+[[98757    47]
+ [   46  5203]]
+------------------------------------
+------------------------------------
+Modelo 1
+[array([0.00000000e+00, 5.06057508e-04, 1.00000000e+00]), array([0.        , 0.99161905, 1.        ]), 0.9955564950553362]
+[[98753    50]
+ [   44  5206]]
+------------------------------------
+------------------------------------
+Modelo 2
+[array([0.00000000e+00, 4.85815208e-04, 1.00000000e+00]), array([0.        , 0.99409524, 1.        ]), 0.996804711443599]
+[[98755    48]
+ [   31  5219]]
+------------------------------------
+------------------------------------
+Modelo 3
+[array([0.00000000e+00, 6.88238211e-04, 1.00000000e+00]), array([0.        , 0.99752381, 1.        ]), 0.9984177856562096]
+[[98735    68]
+ [   13  5237]]
+------------------------------------
+------------------------------------
+Modelo 4
+[array([0.00000000e+00, 8.19813164e-04, 1.00000000e+00]), array([0.        , 0.99809524, 1.        ]), 0.9986377124658351]
+[[98722    81]
+ [   10  5240]]
+------------------------------------
+------------------------------------
+Modelo 5
+[array([0.00000000e+00, 7.79328563e-04, 1.00000000e+00]), array([0.        , 0.99771429, 1.        ]), 0.998467478575694]
+[[98726    77]
+ [   12  5238]]
+------------------------------------
+------------------------------------
+Modelo 6
+[array([0.00000000e+00, 6.37632461e-04, 1.00000000e+00]), array([0.        , 0.99580952, 1.        ]), 0.9975859456744854]
+[[98740    63]
+ [   22  5228]]
+------------------------------------
+------------------------------------
+Modelo 7
+[array([0.0000000e+00, 6.1739016e-04, 1.0000000e+00]), array([0.        , 0.99733333, 1.        ]), 0.9983579715865577]
+[[98742    61]
+ [   14  5236]]
+------------------------------------
+------------------------------------
+Modelo 8
+[array([0.0000000e+00, 5.7690556e-04, 1.0000000e+00]), array([0.        , 0.99542857, 1.        ]), 0.9974258329345118]
+[[98746    57]
+ [   24  5226]]
+------------------------------------
+------------------------------------
+Modelo 9
+[array([0.00000000e+00, 1.61938403e-04, 1.00000000e+00]), array([0.        , 0.98152029, 1.        ]), 0.9906791755881437]
+[[98787    16]
+ [   97  5152]]
+------------------------------------

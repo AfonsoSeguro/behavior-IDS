@@ -1,0 +1,25 @@
+WARNING:tensorflow:From /home/tito/.local/lib/python3.6/site-packages/tensorflow/python/keras/_impl/keras/backend.py:1557: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2021-06-22 10:17:23.617273: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2
+Train on 3755271 samples, validate on 417253 samples
+Epoch 1/10
+ - 334s - loss: 0.0357 - acc: 0.1418 - val_loss: 0.0353 - val_acc: 0.0748
+Epoch 2/10
+ - 339s - loss: 0.0343 - acc: 0.1758 - val_loss: 0.0307 - val_acc: 0.3036
+Epoch 3/10
+ - 334s - loss: 0.0307 - acc: 0.2689 - val_loss: 0.0307 - val_acc: 0.3063
+Epoch 4/10
+ - 331s - loss: 0.0307 - acc: 0.2764 - val_loss: 0.0307 - val_acc: 0.2740
+Epoch 5/10
+ - 331s - loss: 0.0082 - acc: 0.2119 - val_loss: 0.0048 - val_acc: 0.1977
+Epoch 6/10
+ - 332s - loss: 0.0048 - acc: 0.2546 - val_loss: 0.0048 - val_acc: 0.0272
+Epoch 7/10
+ - 332s - loss: 0.0048 - acc: 0.2841 - val_loss: 0.0048 - val_acc: 0.0098
+Epoch 8/10
+ - 332s - loss: 0.0048 - acc: 0.2938 - val_loss: 0.0048 - val_acc: 0.1766
+Epoch 9/10
+ - 332s - loss: 0.0047 - acc: 0.2974 - val_loss: 0.0047 - val_acc: 0.1182
+Epoch 10/10
+ - 333s - loss: 0.0047 - acc: 0.3106 - val_loss: 0.0047 - val_acc: 0.2899

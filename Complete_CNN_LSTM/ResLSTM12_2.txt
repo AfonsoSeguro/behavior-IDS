@@ -1,0 +1,56 @@
+WARNING:tensorflow:From /home/tito/.local/lib/python3.6/site-packages/tensorflow/python/keras/_impl/keras/backend.py:1557: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2021-07-07 23:40:29.234342: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2
+Train on 3755271 samples, validate on 417253 samples
+Epoch 1/10
+ - 332s - loss: 0.0193 - acc: 0.2347 - val_loss: 0.0187 - val_acc: 0.5610
+Epoch 2/10
+ - 327s - loss: 0.0080 - acc: 0.2572 - val_loss: 0.0058 - val_acc: 0.2824
+Epoch 3/10
+ - 328s - loss: 0.0058 - acc: 0.2836 - val_loss: 0.0058 - val_acc: 0.1304
+Epoch 4/10
+ - 327s - loss: 0.0058 - acc: 0.2996 - val_loss: 0.0058 - val_acc: 0.0500
+Epoch 5/10
+ - 328s - loss: 0.0058 - acc: 0.3119 - val_loss: 0.0058 - val_acc: 0.3071
+Epoch 6/10
+ - 328s - loss: 0.0058 - acc: 0.3218 - val_loss: 0.0058 - val_acc: 0.1527
+Epoch 7/10
+ - 329s - loss: 0.0058 - acc: 0.3286 - val_loss: 0.0058 - val_acc: 0.2652
+Epoch 8/10
+ - 329s - loss: 0.0058 - acc: 0.3313 - val_loss: 0.0058 - val_acc: 0.3808
+Epoch 9/10
+ - 330s - loss: 0.0058 - acc: 0.3363 - val_loss: 0.0058 - val_acc: 0.3878
+Epoch 10/10
+ - 329s - loss: 0.0058 - acc: 0.3394 - val_loss: 0.0058 - val_acc: 0.3029
+WARNING:tensorflow:From /home/tito/.local/lib/python3.6/site-packages/tensorflow/python/keras/_impl/keras/backend.py:1456: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /home/tito/.local/lib/python3.6/site-packages/tensorflow/python/keras/_impl/keras/backend.py:1422: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+Train on 3755264 samples, validate on 417252 samples
+Epoch 1/10
+ - 1648s - loss: 0.0353 - acc: 0.9874 - val_loss: 0.0086 - val_acc: 0.9977
+Epoch 2/10
+ - 1636s - loss: 0.0071 - acc: 0.9982 - val_loss: 0.0055 - val_acc: 0.9986
+Epoch 3/10
+ - 1632s - loss: 0.0056 - acc: 0.9986 - val_loss: 0.0048 - val_acc: 0.9988
+Epoch 4/10
+ - 1630s - loss: 0.0049 - acc: 0.9988 - val_loss: 0.0044 - val_acc: 0.9989
+Epoch 5/10
+ - 1626s - loss: 0.0045 - acc: 0.9989 - val_loss: 0.0040 - val_acc: 0.9990
+Epoch 6/10
+ - 1636s - loss: 0.0039 - acc: 0.9990 - val_loss: 0.0043 - val_acc: 0.9988
+Epoch 7/10
+ - 1627s - loss: 0.0035 - acc: 0.9991 - val_loss: 0.0033 - val_acc: 0.9992
+Epoch 8/10
+ - 1628s - loss: 0.0033 - acc: 0.9991 - val_loss: 0.0031 - val_acc: 0.9992
+Epoch 9/10
+ - 1628s - loss: 0.0031 - acc: 0.9992 - val_loss: 0.0029 - val_acc: 0.9993
+Epoch 10/10
+ - 1621s - loss: 0.0029 - acc: 0.9992 - val_loss: 0.0029 - val_acc: 0.9992
+[[898382    520]
+ [   246 143981]]
+[0.00000000e+00 5.78483528e-04 1.00000000e+00] | [0.         0.99829436 1.        ]
+0.9988579359490701
