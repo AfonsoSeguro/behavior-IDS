@@ -22,7 +22,7 @@ To see and run some of our Jupyter Notebook projects you'll need to initialize i
 For example:
 
 ```bash
-C:\Users\Your_User\PycharmProjects\IDS_Comportamental>jupyter notebook
+C:\Users\Your_User\PycharmProjects\behavior-IDS>jupyter notebook
 ```
 
 ### Dowloading the Dataset
