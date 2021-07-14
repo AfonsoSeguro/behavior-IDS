@@ -2,6 +2,9 @@
 
 This project is an IDS (Intrusion Detection System) based on Machine Learning, namely and mostly, Deep Learning using Python.
 
+## Our goal
+Our goal is to project an IDS capable enough of detecting attacks based on their(s) behavior(s) using neural networks CNN and LSTM.
+
 ## Requirements
 In order to "run" our project it is necessary to have some unique dependencies:
 
@@ -21,9 +24,6 @@ For example:
 ```bash
 C:\Users\Your_User\PycharmProjects\IDS_Comportamental>jupyter notebook
 ```
-
-## Our goal
-Our goal is to project an IDS capable enough of detecting attacks based on their(s) behavior(s) using neural networks CNN and LSTM.
 
 ### Dowloading the Dataset
 In case u wanna try and download the dataset yourself, here is the URL:
