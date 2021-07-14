@@ -16,15 +16,15 @@ pip install pandas
 ```
 
 ## Getting Started
-Clone this repo somewhere
-Install the dependencies trough your IDE
-Run jupyter notebook --> For example:
+- Clone this repo somewhere
+- Install the dependencies trough your IDE
+- Run jupyter notebook --> For example:
 
 ```bash
 C:\Users\Your_User\PycharmProjects\behavior-IDS>jupyter notebook
 ```
 
-Run one of the models given and try for yourself
+- Run one of the models given and try for yourself
 
 ### Dowloading the Dataset
 In case u wanna try and download the dataset yourself, here is the URL:
