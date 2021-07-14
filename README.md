@@ -1,5 +1,4 @@
 # Behavior-IDS
-
 This project is an IDS (Intrusion Detection System) based on Machine Learning, namely and mostly, Deep Learning using Python.
 
 ## Our goal
@@ -16,14 +15,16 @@ pip install matplotlib
 pip install pandas
 ```
 
-## Usage
-To see and run some of our Jupyter Notebook projects you'll need to initialize it first.
-
-For example:
+## Getting Started
+Clone this repo somewhere
+Install the dependencies trough your IDE
+Run jupyter notebook --> For example:
 
 ```bash
 C:\Users\Your_User\PycharmProjects\behavior-IDS>jupyter notebook
 ```
+
+Run one of the models given and try for yourself
 
 ### Dowloading the Dataset
 In case u wanna try and download the dataset yourself, here is the URL:
