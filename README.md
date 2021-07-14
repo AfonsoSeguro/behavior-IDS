@@ -1,2 +1,2 @@
 # behavior-IDS
-Behavior IDS using CNN and RNN
+- Behavior IDS using neural networks CNN and LSTM
